@@ -1,0 +1,15 @@
+2.
+brute_force_n2
+I write two nest for loop each for loop run n times. So total ruuning time is n2.
+
+3.
+If n choose 2 formula is n!/(2! *(n - 2)!)
+			=(n * (n-1) * (n-2)!)/(2! * (n -2)!)
+			get rid of (n-2)!
+			=(n2-2n+1)/2
+			ignore constants
+			So running time is n2. 
+
+5.
+brute_force_n3
+I let brute_force_n2 run another n times. So total running time is n3
